@@ -1,4 +1,7 @@
 # TouchJSON HOWTO
+## For CocoaPods (branch/featureNonARC)
+
+ 这个分支是为百度移动统计做的, 百度移动统计固执地使用TouchJson, 且使用非ARC的TouchJson版本. 所以做个pods管理的版本.
 
 ## IMPORTANT
 
