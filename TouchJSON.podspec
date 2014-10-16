@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   # s.ios.deployment_target = '6.0'
   # s.osx.deployment_target = '10.7'
-  s.requires_arc = NO
+  s.requires_arc = false
 
   s.source_files = 'Source/*'
   # s.resources = 'Assets'
