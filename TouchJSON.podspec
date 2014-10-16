@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/TouchCode/TouchJSON"
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  # s.author           = { "red3" => "red3@red.com" }
+  s.author           = { "red3" => "red3@red.com" }
   
-  s.source           = { :git => "https://github.com/red3/TouchJSON.git", :branch => "feature/NonARC" }
+  s.source           = { :git => "https://github.com/red3/TouchJSON.git", :branch => "feature/MyNonARC", :tag => "v#{s.version.to_s}" }
   # s.social_media_url = 'https://twitter.com/NAME'
 
   s.platform     = :ios, '6.0'
