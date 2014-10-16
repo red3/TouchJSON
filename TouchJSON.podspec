@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = false
 
-  s.source_files = 'Source/JSON/*'
+  s.source_files = 'Source'
   # s.resources = 'Assets'
 
   # s.ios.exclude_files = 'Classes/osx'
